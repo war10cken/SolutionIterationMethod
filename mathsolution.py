@@ -1,7 +1,7 @@
 import math
 import decimal
 
-print()
+print('')
 x = decimal.Decimal((input('Enter x: ')))
 eps = decimal.Decimal((input('Enter eps: ')))
 q = decimal.Decimal((input('Enter q: ')))
