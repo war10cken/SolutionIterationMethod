@@ -1,6 +1,7 @@
 import math
 import decimal
 
+print()
 x = decimal.Decimal((input('Enter x: ')))
 eps = decimal.Decimal((input('Enter eps: ')))
 q = decimal.Decimal((input('Enter q: ')))
@@ -24,4 +25,3 @@ while True:
         break
 x = x.quantize(decimal.Decimal('1.0000000'))
 print('x =', format(x))
-input()
